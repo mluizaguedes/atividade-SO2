@@ -61,5 +61,5 @@ app.delete('/users/:id', (req, res) => {
 
 // Inicia o servidor
 app.listen(PORT, '0.0.0.0', () => {
-    console.log(`Servidor rodando em http://44.211.129.227:${PORT}`);
+    console.log(`Servidor rodando em ${PORT}`);
 });
