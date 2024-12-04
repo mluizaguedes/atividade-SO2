@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 
 // Conexão com MySQL
 const db = mysql.createConnection({
-    host: '3.81.157.96',
+    host: '172.31.46.230',
     user: 'user1', // Alterar se necessário
     password: 'password1', // Alterar se necessário
     database: 'crud_aws'
