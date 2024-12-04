@@ -78,7 +78,7 @@
 
         // Carregar usuários
         async function loadUsers() {
-            const response = await fetch(API_URL);
+            const response = await fetch(`${API_URL}/users`);
             const users = await response.json();
             const userTable = document.getElementById('userTable');
             userTable.innerHTML = '';
